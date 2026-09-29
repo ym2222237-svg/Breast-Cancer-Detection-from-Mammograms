@@ -49,13 +49,27 @@ The model was evaluated using:
 - Recall
 - F1-Score
 
-### Test Results
+## Model Performance
+
+The model was evaluated on the test set using multiple classification metrics.
 
 - ROC-AUC: 0.781
 - PR-AUC: 0.158
+- Precision: 0.0537
+- Recall: 0.6777
+- F1-Score: 0.0995
+- ## Key Results
 
+The model achieved a ROC-AUC of 0.781 and a PR-AUC of 0.158 on the test set.
+
+The selected classification threshold was 0.95, with a recall of 0.6777.
 ## Project Structure
+## Installation
 
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
 ```text
 Breast-Cancer-Detection/
 │
